@@ -1,16 +1,20 @@
-# auth_app
+# Flutter Authentication App
 
-This is a Flutter authentication app that uses Firebase Core and Firebase Auth for user authentication. The app allows users to sign up, log in, and log out securely. It demonstrates the integration of Firebase services with a Flutter application.
+This is a Flutter authentication app designed to manage user sign-up, login, and logout functionalities using Firebase. The app integrates with Firebase Authentication for secure and efficient user authentication processes, leveraging _`firebase_core`_ for Firebase initialization and configuration.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **User Sign-Up**: Allows new users to create an account using their email and password.
+- **User Login**: Enables existing users to sign in using their email and password.
+- **User Logout**: Provides a secure way for users to log out of their account.
+- **Firebase Integration**: Uses _`firebase_core`_ for Firebase initialization and _`firebase_auth`_ for authentication services.
+- **User-Friendly Interface**: Simple and intuitive UI for a seamless user experience.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Learning Objectives
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Integrating Firebase with a Flutter application using _`firebase_core`_.
+- Implementing user authentication (sign-up, login, logout) using _`firebase_auth`_.
+- Handling user authentication states and updating the UI accordingly.
+- Building a responsive and user-friendly interface in Flutter.
